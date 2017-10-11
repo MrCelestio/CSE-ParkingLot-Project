@@ -1,11 +1,9 @@
 package vehicles;
 
-import java.awt.Color;
-
 import spots.ParkingSpot;
 
 
-public abstract class Vehicle implements Payment { //abstract class for vehicles to be used as blueprint
+public abstract class Vehicle { //abstract class for vehicles to be used as blueprint
 	String license;               // the license information for cars to be located
 	String color;                // color information (never hurts for extra details)
 	int size;                   // size indicator (0 small , 1 medium, 2 large, 3 extra large) to efficiently determine available parking spot options

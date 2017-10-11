@@ -1,7 +1,7 @@
 package vehicles;
 
 import spots.ParkingSpot;
-
+//class for Small Vehicles. Implements Payment method
 public class SmallVehicle extends Vehicle implements  Payment {
 	
 	

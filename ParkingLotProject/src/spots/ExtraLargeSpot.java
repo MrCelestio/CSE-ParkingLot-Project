@@ -1,8 +1,8 @@
 package spots;
 
-public class ExtraLargeSpot extends ParkingSpot {
+public class ExtraLargeSpot extends ParkingSpot {// Parking spot class for ExtraLarge spots
 	private String location;
-	private final int size = 3;
+	private final int size = 3;// predetermined size of 3 for ExtraLarge
 	
 	
 	public ExtraLargeSpot() {

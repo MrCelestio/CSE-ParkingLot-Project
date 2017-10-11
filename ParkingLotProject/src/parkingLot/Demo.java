@@ -6,6 +6,7 @@ import vehicles.*;
 
 public class Demo {
 
+	//example code for the important methods. test for functionality
 	public static void main(String[] args) throws Exception {
 		
 		

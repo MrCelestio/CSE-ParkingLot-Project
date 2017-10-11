@@ -2,12 +2,13 @@ package vehicles;
 
 import spots.ParkingSpot;
 
+//class for Small Vehicles. Implements Payment method 
 public class MediumVehicle extends Vehicle implements  Payment {
 	
 	
 	
 	public MediumVehicle(String license, String color) {
-		super(license, color, 0);
+		super(license, color, 1);
 		
 	}
 

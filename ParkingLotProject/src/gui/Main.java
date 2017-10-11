@@ -65,7 +65,7 @@ public class Main extends Application {
 		bottomPane.setAlignment(Pos.CENTER);
 		bottomPane.setSpacing(25);
 		
-		// Button Setup
+		// Button Setup for Parking HUD
 		Button buttonA1 = new Button();
 		buttonA1.setText("A1");
 		Button buttonA2 = new Button();

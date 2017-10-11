@@ -2,7 +2,7 @@ package spots;
 
 import java.util.Stack;
 
-public abstract class ParkingSpotStack {
+public abstract class ParkingSpotStack {// abstract class used to make collections of parking spot sizes
 
 	private static Stack<ParkingSpot> spotCollection = new Stack<ParkingSpot>();
 

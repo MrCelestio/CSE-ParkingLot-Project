@@ -1,8 +1,8 @@
 package spots;
 
-public class ParkingSpot {
-	private String location;
-	private int size;
+public class ParkingSpot { // Abstract Class for Parking Spots
+	private String location; // location is used as a Representative number of its relative location
+	private int size; // size is used to sort out different parking options
 	
 	public ParkingSpot() {
 		
